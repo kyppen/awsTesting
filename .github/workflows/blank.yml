@@ -2,11 +2,6 @@ on:
   push:
     branches:
       - main
-
-defaults:
-  run:
-    working-directory: ./sentiment-demo
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
